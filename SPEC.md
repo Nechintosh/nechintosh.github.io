@@ -1,7 +1,7 @@
 # Personal research website
 
 ## Objective and scope
-Create an English-first, bilingual research portfolio and résumé for Matteo Jiahao Chen. Visitors can understand his research, inspect selected contributions, download either existing CV, and follow email, LinkedIn, and project links. The user requests a real-name github.io URL; account choice is pending. Do not publish under Nech07 or rename an account until that choice is resolved.
+Create an English-first, bilingual research portfolio and résumé for Matteo Jiahao Chen. Visitors can understand his research, inspect selected contributions, download either existing CV, and follow email, LinkedIn, and project links. The user renamed their account to `Nechintosh` and explicitly selected **https://nechintosh.github.io/**.
 
 ## Stack and commands
 Dependency-free HTML, CSS, and browser JavaScript. Node.js is required only to regenerate the self-contained output.
@@ -9,7 +9,7 @@ Dependency-free HTML, CSS, and browser JavaScript. Node.js is required only to r
 - Build: `node scripts/build.mjs`
 - Check JavaScript: `node --check src/app.js`
 - Preview: open `docs/index.html` directly in a browser. No HTTP server.
-- Deploy: push the reviewed site to the confirmed GitHub repository; GitHub Pages publishes `main:/docs`.
+- Deploy: push the reviewed site to `Nechintosh/nechintosh.github.io`; GitHub Pages publishes `main:/docs`.
 
 ## Structure and code style
 - `src/index.html`: semantic HTML layout with `{{translationKey}}` tokens.

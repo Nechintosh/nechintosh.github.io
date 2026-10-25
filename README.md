@@ -1,6 +1,6 @@
 # Matteo Jiahao Chen — research portfolio
 
-English and Chinese research portfolio with the original CVs embedded for download. The user requested GitHub Pages hosting and is choosing the real-name account/URL. No site content has been published.
+English and Chinese research portfolio with the original CVs embedded for download. Site: **https://nechintosh.github.io/**. Repository: **https://github.com/Nechintosh/nechintosh.github.io**.
 
 ## Open and edit
 
@@ -18,9 +18,9 @@ git diff --check
 
 ## GitHub Pages
 
-For a root URL such as `https://matteojiahaochen.github.io/`, the owning account or organization must have that matching name and the repository must be `matteojiahaochen.github.io`. Creating a repository with that name under `Nech07` does not provide that root address. The exact final account and repository are not configured yet.
+The confirmed owner is `Nechintosh`, and the repository is `nechintosh.github.io`. GitHub Pages publishes `main:/docs` at **https://nechintosh.github.io/**.
 
-Once the owner is confirmed, push to the matching repository and set **Settings → Pages → Deploy from a branch → main → /docs**. The committed `.nojekyll` disables Jekyll processing. No Actions workflow or dependency installation is needed. Follow the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+After editing and rebuilding, commit and push to `main`. Pages is configured as **Settings → Pages → Deploy from a branch → main → /docs**. The committed `.nojekyll` disables Jekyll processing. No custom Actions workflow or dependency installation is needed. Follow the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
 The downloadable CVs retain their original phone number, email, and WeChat details. The page itself uses email and professional profile links for contact.
 
