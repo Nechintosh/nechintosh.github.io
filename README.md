@@ -38,4 +38,6 @@ Research claims preserve the CV's scope: SSPC is ongoing with evaluation pending
 
 Build and JavaScript syntax checks passed. Static parsing checked unique IDs, valid internal anchors, portrait embedding, both PDF byte comparisons, and absence of external runtime assets.
 
-The local file was opened in the app. Browser automation cannot inspect it: the browser policy permits only HTTP/HTTPS and rejects `file://`. Visual layout, responsive rendering, keyboard interaction, language switching, and clicked downloads still require direct user review or inspection after authorized publication. No preview server was started.
+The local file was opened in the app. Browser automation cannot inspect `file://` URLs, so browser QA used the authorized public deployment at https://nechintosh.github.io/. No preview server was started.
+
+Live checks on 2026-10-25 confirmed the deployed HTML matches `docs/index.html` byte for byte, the portrait loads, English/Chinese switching updates the content and document language, résumé navigation reaches the contact section, and both downloaded PDFs match the source assets. The inspected viewport was 618 pixels wide with no horizontal overflow; other viewport sizes and exhaustive keyboard navigation were not interactively tested. A local screenshot is saved in ignored `output/live-portfolio.png`.
